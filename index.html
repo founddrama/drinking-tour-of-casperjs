@@ -57,11 +57,11 @@
         </section>
         <section>
           <h3>installation</h3>
-          <pre><code data-trim contenteditable>
+          <pre><code data-trim contenteditable class="bash">
 $ brew install casperjs
           </code></pre>
           <h4>or</h4>
-          <pre><code data-trim contenteditable>
+          <pre><code data-trim contenteditable class="bash">
 $ npm install --global casperjs
           </code></pre>
         </section>
@@ -79,6 +79,7 @@ casper.start('https://untappd.com/user/founddrama', function() {
 
 casper.run();
           </code></pre>
+          <p><code>$ casperjs simple-casper.js</code></p>
         </section>
         <section>
           <h3>straight-up PhantomJS</h3>
@@ -99,6 +100,11 @@ webpage.open('https://untappd.com/user/founddrama', function(status) {
   phantom.exit();
 });
           </code></pre>
+          <p><code>$ phantomjs simple-phantom.js</code></p>
+        </section>
+        <section>
+          <h3>(back to our original problem...)</h3>
+          <p><code>$ casperjs untappd.js</code></p>
         </section>
         <section>
           <h1>testing</h1>
@@ -132,6 +138,7 @@ casper.test.begin('Untappd.com demo test thing', function(test) {
     });
 });
           </code></pre>
+          <p><code>$ casperjs test untappd-test.js</code></p>
         </section>
         <section>
           <h1>Thanks!</h1>

@@ -87,7 +87,7 @@ casper.then(function() {
           if (this.visible(MORE_BEERS_SELECTOR)) {
             getMoreBeers();
           } else {
-            this.echo('Evaluating page contents...');
+            this.echo('Extracting beer data from page contents...');
             var allBeers = this.evaluate(collectBeers, UNTAPPD);
 
             require('fs').write(filename, beers2CSV(allBeers), 'w');
