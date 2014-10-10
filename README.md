@@ -8,3 +8,7 @@ Talk presented by [Rob Friesel](http://blog.founddrama.net)
 ([@founddrama](https://twitter.com/founddrama)).
 
 October 2014
+
+------
+
+Uh... [MIT License?](http://opensource.org/licenses/MIT)
