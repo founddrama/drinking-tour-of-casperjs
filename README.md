@@ -11,4 +11,8 @@ October 2014
 
 ------
 
+Check it out online: [founddrama.github.io/drinking-tour-of-casperjs/](https://founddrama.github.io/drinking-tour-of-casperjs/)
+
+------
+
 Uh... [MIT License?](http://opensource.org/licenses/MIT)
